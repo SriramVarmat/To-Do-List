@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 36, 36);
+    color: aliceblue;
+}
+
+.container{
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+#content{
+   width: 80vh;
+   height: 20px;
+}
+
+form button{
+   cursor: pointer;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item i{
+    cursor: pointer;
+}
+
